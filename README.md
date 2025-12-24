@@ -9,6 +9,18 @@ This is a simple Flask web application deployed on a Kubernetes cluster using Mi
 - **Docker** installed to build and load Docker images
 - **PowerShell** (for Windows users)
 
+### Screenshots
+
+Here’s a screenshot of the application running:
+
+![Docker Run ](screenshots/ss1.png)
+![Acess Flask App ](screenshots/ss2.png)
+![Flask App Screenshot](screenshots/ss3.png)
+![Flask App Screenshot](screenshots/ss4.png)
+![Flask App Screenshot](screenshots/ss5.png)
+![Flask App Screenshot](screenshots/ss6.png)
+![Flask App Screenshot](screenshots/ss7.png)
+
 
 ### Setup and Installation
 
@@ -142,7 +154,7 @@ minikube delete
 minikube start
 ```
 
-# Step 15: Set the correct Kubernetes context for kubectl
+### Step 15: Set the correct Kubernetes context for kubectl
 ```
 kubectl config use-context minikube
 ```
