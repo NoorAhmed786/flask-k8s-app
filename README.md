@@ -87,7 +87,8 @@ docker build -t flask-k8s-app:1.0
 ```
 
 ### Step 3: If using Minikube, set Docker environment to Minikube's Docker daemon
-```eval $(minikube -p minikube docker-env)  # For Unix-based systems (Linux/macOS)
+```
+eval $(minikube -p minikube docker-env)  # For Unix-based systems (Linux/macOS)
 ```
 ### For PowerShell (Windows):
 ```
